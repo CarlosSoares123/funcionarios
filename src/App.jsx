@@ -18,7 +18,7 @@ function App() {
 
   const [empregadosList, setEmpregados] = useState([])
 
-  const webServer = 'https://api-funcionarios.onrender.com'
+  const webServer = 'https://nice-cyan-crane-gown.cyclic.app'
 
   const add = () => {
     axios.post(`${webServer}/criar`, {
